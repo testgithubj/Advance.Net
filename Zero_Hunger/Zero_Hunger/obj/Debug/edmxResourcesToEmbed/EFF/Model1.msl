@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Zero_HungerEntities">
+    <EntitySetMapping Name="admin_tb">
+      <EntityTypeMapping TypeName="Model.admin_tb">
+        <MappingFragment StoreEntitySet="admin_tb">
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employee_tb">
+      <EntityTypeMapping TypeName="Model.employee_tb">
+        <MappingFragment StoreEntitySet="employee_tb">
+          <ScalarProperty Name="em_id" ColumnName="em_id" />
+          <ScalarProperty Name="fisrtname" ColumnName="fisrtname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="username" ColumnName="username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="request_tb">
+      <EntityTypeMapping TypeName="Model.request_tb">
+        <MappingFragment StoreEntitySet="request_tb">
+          <ScalarProperty Name="req_id" ColumnName="req_id" />
+          <ScalarProperty Name="foodtype" ColumnName="foodtype" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="assing_employee" ColumnName="assing employee" />
+          <ScalarProperty Name="details_food" ColumnName="details food" />
+          <ScalarProperty Name="date_of_order" ColumnName="date of order" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="res_tab">
+      <EntityTypeMapping TypeName="Model.res_tab">
+        <MappingFragment StoreEntitySet="res_tab">
+          <ScalarProperty Name="restrudent_id" ColumnName="restrudent_id" />
+          <ScalarProperty Name="res_name" ColumnName="res_name" />
+          <ScalarProperty Name="res_type" ColumnName="res_type" />
+          <ScalarProperty Name="res_location" ColumnName="res_location" />
+          <ScalarProperty Name="res_number" ColumnName="res_number" />
+          <ScalarProperty Name="res_email" ColumnName="res_email" />
+          <ScalarProperty Name="res_username" ColumnName="res_username" />
+          <ScalarProperty Name="res_password" ColumnName="res_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

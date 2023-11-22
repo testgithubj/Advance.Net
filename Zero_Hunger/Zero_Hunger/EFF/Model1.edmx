@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="admin_tb">
+          <Key>
+            <PropertyRef Name="admin_id" />
+          </Key>
+          <Property Name="admin_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+          <Property Name="phone" Type="int" />
+          <Property Name="username" Type="varchar" MaxLength="50" />
+          <Property Name="password" Type="int" />
+        </EntityType>
+        <EntityType Name="employee_tb">
+          <Key>
+            <PropertyRef Name="em_id" />
+          </Key>
+          <Property Name="em_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fisrtname" Type="varchar" MaxLength="50" />
+          <Property Name="lastname" Type="varchar" MaxLength="50" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="phone" Type="int" />
+          <Property Name="address" Type="varchar" MaxLength="50" />
+          <Property Name="role" Type="varchar" MaxLength="50" />
+          <Property Name="username" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="request_tb">
+          <Key>
+            <PropertyRef Name="req_id" />
+          </Key>
+          <Property Name="req_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="foodtype" Type="varchar" MaxLength="50" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="phone" Type="int" />
+          <Property Name="assing employee" Type="varchar" MaxLength="50" />
+          <Property Name="details food" Type="varchar" MaxLength="50" />
+          <Property Name="date of order" Type="int" />
+        </EntityType>
+        <EntityType Name="res_tab">
+          <Key>
+            <PropertyRef Name="restrudent_id" />
+          </Key>
+          <Property Name="restrudent_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="res_name" Type="varchar" MaxLength="50" />
+          <Property Name="res_type" Type="varchar" MaxLength="50" />
+          <Property Name="res_location" Type="varchar" MaxLength="50" />
+          <Property Name="res_number" Type="int" />
+          <Property Name="res_email" Type="varchar" MaxLength="50" />
+          <Property Name="res_username" Type="varchar" MaxLength="50" />
+          <Property Name="res_password" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="admin_tb" EntityType="Self.admin_tb" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="employee_tb" EntityType="Self.employee_tb" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="request_tb" EntityType="Self.request_tb" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="res_tab" EntityType="Self.res_tab" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="admin_tb">
+          <Key>
+            <PropertyRef Name="admin_id" />
+          </Key>
+          <Property Name="admin_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="Int32" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="Int32" />
+        </EntityType>
+        <EntityType Name="employee_tb">
+          <Key>
+            <PropertyRef Name="em_id" />
+          </Key>
+          <Property Name="em_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fisrtname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="Int32" />
+          <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="request_tb">
+          <Key>
+            <PropertyRef Name="req_id" />
+          </Key>
+          <Property Name="req_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="foodtype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="Int32" />
+          <Property Name="assing_employee" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="details_food" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="date_of_order" Type="Int32" />
+        </EntityType>
+        <EntityType Name="res_tab">
+          <Key>
+            <PropertyRef Name="restrudent_id" />
+          </Key>
+          <Property Name="restrudent_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="res_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="res_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="res_location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="res_number" Type="Int32" />
+          <Property Name="res_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="res_username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="res_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="Zero_HungerEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="admin_tb" EntityType="Self.admin_tb" />
+          <EntitySet Name="employee_tb" EntityType="Self.employee_tb" />
+          <EntitySet Name="request_tb" EntityType="Self.request_tb" />
+          <EntitySet Name="res_tab" EntityType="Self.res_tab" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Zero_HungerEntities">
+          <EntitySetMapping Name="admin_tb">
+            <EntityTypeMapping TypeName="Model.admin_tb">
+              <MappingFragment StoreEntitySet="admin_tb">
+                <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employee_tb">
+            <EntityTypeMapping TypeName="Model.employee_tb">
+              <MappingFragment StoreEntitySet="employee_tb">
+                <ScalarProperty Name="em_id" ColumnName="em_id" />
+                <ScalarProperty Name="fisrtname" ColumnName="fisrtname" />
+                <ScalarProperty Name="lastname" ColumnName="lastname" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="username" ColumnName="username" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="request_tb">
+            <EntityTypeMapping TypeName="Model.request_tb">
+              <MappingFragment StoreEntitySet="request_tb">
+                <ScalarProperty Name="req_id" ColumnName="req_id" />
+                <ScalarProperty Name="foodtype" ColumnName="foodtype" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="assing_employee" ColumnName="assing employee" />
+                <ScalarProperty Name="details_food" ColumnName="details food" />
+                <ScalarProperty Name="date_of_order" ColumnName="date of order" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="res_tab">
+            <EntityTypeMapping TypeName="Model.res_tab">
+              <MappingFragment StoreEntitySet="res_tab">
+                <ScalarProperty Name="restrudent_id" ColumnName="restrudent_id" />
+                <ScalarProperty Name="res_name" ColumnName="res_name" />
+                <ScalarProperty Name="res_type" ColumnName="res_type" />
+                <ScalarProperty Name="res_location" ColumnName="res_location" />
+                <ScalarProperty Name="res_number" ColumnName="res_number" />
+                <ScalarProperty Name="res_email" ColumnName="res_email" />
+                <ScalarProperty Name="res_username" ColumnName="res_username" />
+                <ScalarProperty Name="res_password" ColumnName="res_password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

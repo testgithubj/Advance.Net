@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin_tb">
+    <Key>
+      <PropertyRef Name="admin_id" />
+    </Key>
+    <Property Name="admin_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="Int32" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="Int32" />
+  </EntityType>
+  <EntityType Name="employee_tb">
+    <Key>
+      <PropertyRef Name="em_id" />
+    </Key>
+    <Property Name="em_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fisrtname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lastname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="Int32" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="request_tb">
+    <Key>
+      <PropertyRef Name="req_id" />
+    </Key>
+    <Property Name="req_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="foodtype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="Int32" />
+    <Property Name="assing_employee" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="details_food" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="date_of_order" Type="Int32" />
+  </EntityType>
+  <EntityType Name="res_tab">
+    <Key>
+      <PropertyRef Name="restrudent_id" />
+    </Key>
+    <Property Name="restrudent_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="res_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="res_type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="res_location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="res_number" Type="Int32" />
+    <Property Name="res_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="res_username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="res_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Zero_HungerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admin_tb" EntityType="Self.admin_tb" />
+    <EntitySet Name="employee_tb" EntityType="Self.employee_tb" />
+    <EntitySet Name="request_tb" EntityType="Self.request_tb" />
+    <EntitySet Name="res_tab" EntityType="Self.res_tab" />
+  </EntityContainer>
+</Schema>

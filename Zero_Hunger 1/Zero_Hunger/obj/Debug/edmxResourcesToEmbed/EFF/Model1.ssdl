@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin_tb">
+    <Key>
+      <PropertyRef Name="admin_id" />
+    </Key>
+    <Property Name="admin_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="int" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="int" />
+  </EntityType>
+  <EntityType Name="employee_tb">
+    <Key>
+      <PropertyRef Name="em_id" />
+    </Key>
+    <Property Name="em_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fisrtname" Type="varchar" MaxLength="50" />
+    <Property Name="lastname" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="int" />
+    <Property Name="address" Type="varchar" MaxLength="50" />
+    <Property Name="role" Type="varchar" MaxLength="50" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="request_tb">
+    <Key>
+      <PropertyRef Name="req_id" />
+    </Key>
+    <Property Name="req_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="foodtype" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="int" />
+    <Property Name="assing employee" Type="varchar" MaxLength="50" />
+    <Property Name="details food" Type="varchar" MaxLength="50" />
+    <Property Name="date of order" Type="int" />
+  </EntityType>
+  <EntityType Name="res_tab">
+    <Key>
+      <PropertyRef Name="restrudent_id" />
+    </Key>
+    <Property Name="restrudent_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="res_name" Type="varchar" MaxLength="50" />
+    <Property Name="res_type" Type="varchar" MaxLength="50" />
+    <Property Name="res_location" Type="varchar" MaxLength="50" />
+    <Property Name="res_number" Type="int" />
+    <Property Name="res_email" Type="varchar" MaxLength="50" />
+    <Property Name="res_username" Type="varchar" MaxLength="50" />
+    <Property Name="res_password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="admin_tb" EntityType="Self.admin_tb" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee_tb" EntityType="Self.employee_tb" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="request_tb" EntityType="Self.request_tb" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="res_tab" EntityType="Self.res_tab" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
