@@ -1,0 +1,56 @@
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\BLL.dll
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\BLL.pdb
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\DLL.dll
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\DLL.pdb
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.dll
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.pdb
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\EntityFramework.dll
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\DLL.dll.config
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\EntityFramework.xml
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\AutoMapper.dll
+E:\c#\API\Asp.net-practices\--PersonMS\BLL\bin\Debug\AutoMapper.xml
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\BLL.dll
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\BLL.pdb
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\AutoMapper.dll
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\DLL.dll
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\EntityFramework.dll
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\DLL.pdb
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\DLL.dll.config
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\AutoMapper.xml
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\bin\Debug\EntityFramework.xml
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.dll
+E:\.NET ALL FILE - Copy\Asp.net-practices\--PersonMS\BLL\obj\Debug\BLL.pdb
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\BLL.dll
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\BLL.pdb
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\AutoMapper.dll
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\DLL.dll
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\EntityFramework.dll
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\DLL.pdb
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\DLL.dll.config
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\AutoMapper.xml
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\bin\Debug\EntityFramework.xml
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.dll
+C:\Users\asus\Downloads\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.pdb
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\BLL.dll
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\BLL.pdb
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\AutoMapper.dll
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\DLL.dll
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\DLL.pdb
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\DLL.dll.config
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\AutoMapper.xml
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.dll
+C:\Users\ASUS\Downloads\PersonMS\--PersonMS\--PersonMS\BLL\obj\Debug\BLL.pdb
